@@ -6,7 +6,7 @@ namespace primer_proyecto
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome Matias to C#!");
         }
     }
 }

@@ -1,0 +1,16 @@
+C:\Users\matir\OneDrive\Escritorio\PRACTICA C# - NIVEL 1\primer-proyecto\bin\Debug\net5.0\primer-proyecto.exe
+C:\Users\matir\OneDrive\Escritorio\PRACTICA C# - NIVEL 1\primer-proyecto\bin\Debug\net5.0\primer-proyecto.deps.json
+C:\Users\matir\OneDrive\Escritorio\PRACTICA C# - NIVEL 1\primer-proyecto\bin\Debug\net5.0\primer-proyecto.runtimeconfig.json
+C:\Users\matir\OneDrive\Escritorio\PRACTICA C# - NIVEL 1\primer-proyecto\bin\Debug\net5.0\primer-proyecto.runtimeconfig.dev.json
+C:\Users\matir\OneDrive\Escritorio\PRACTICA C# - NIVEL 1\primer-proyecto\bin\Debug\net5.0\primer-proyecto.dll
+C:\Users\matir\OneDrive\Escritorio\PRACTICA C# - NIVEL 1\primer-proyecto\bin\Debug\net5.0\primer-proyecto.pdb
+C:\Users\matir\OneDrive\Escritorio\PRACTICA C# - NIVEL 1\primer-proyecto\obj\Debug\net5.0\primer-proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matir\OneDrive\Escritorio\PRACTICA C# - NIVEL 1\primer-proyecto\obj\Debug\net5.0\primer-proyecto.AssemblyInfoInputs.cache
+C:\Users\matir\OneDrive\Escritorio\PRACTICA C# - NIVEL 1\primer-proyecto\obj\Debug\net5.0\primer-proyecto.AssemblyInfo.cs
+C:\Users\matir\OneDrive\Escritorio\PRACTICA C# - NIVEL 1\primer-proyecto\obj\Debug\net5.0\primer-proyecto.csproj.CoreCompileInputs.cache
+C:\Users\matir\OneDrive\Escritorio\PRACTICA C# - NIVEL 1\primer-proyecto\obj\Debug\net5.0\primer-proyecto.sourcelink.json
+C:\Users\matir\OneDrive\Escritorio\PRACTICA C# - NIVEL 1\primer-proyecto\obj\Debug\net5.0\primer-proyecto.dll
+C:\Users\matir\OneDrive\Escritorio\PRACTICA C# - NIVEL 1\primer-proyecto\obj\Debug\net5.0\refint\primer-proyecto.dll
+C:\Users\matir\OneDrive\Escritorio\PRACTICA C# - NIVEL 1\primer-proyecto\obj\Debug\net5.0\primer-proyecto.pdb
+C:\Users\matir\OneDrive\Escritorio\PRACTICA C# - NIVEL 1\primer-proyecto\obj\Debug\net5.0\primer-proyecto.genruntimeconfig.cache
+C:\Users\matir\OneDrive\Escritorio\PRACTICA C# - NIVEL 1\primer-proyecto\obj\Debug\net5.0\ref\primer-proyecto.dll
