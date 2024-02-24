@@ -20,6 +20,7 @@ namespace calculadora
 
             //Step 3: Egresar el resultado.
             Console.WriteLine("El resultado es: " + resultado);
+
         }
     }
 }
