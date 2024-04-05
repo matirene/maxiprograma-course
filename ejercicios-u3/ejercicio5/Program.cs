@@ -41,7 +41,7 @@ namespace ejercicio5
                 Console.WriteLine("El cuarto valor " + d + " es mayor a 100");
                 count++;
             }
-
+            
             if(count == 0){
                 Console.WriteLine("Ninguno es mayor a 100");
             }
