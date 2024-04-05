@@ -15,7 +15,7 @@ namespace ejercicio2
             Hacer un programa que solicite el ingreso del importe total de la venta y la cantidad de litros vendidos y calcule y emita el importe con el descuento  aplicado..
             */
 
-            float importe, litros, importeFinal;
+            float importe, litros;
 
 
             Console.WriteLine("Ingrese el importe total de la ventana");
@@ -23,19 +23,15 @@ namespace ejercicio2
             Console.WriteLine("Ingrese la cantidad de litros vendidos");
             litros = float.Parse(Console.ReadLine());
 
-            importeFinal = 0;
-
-            if (litros > 100 && litros <= 300){
-                importeFinal = importe * 0.9F;
-            } else if (litros > 300  && litros <= 500){
-                importeFinal = importe * 0.85F;
-            } else if (litros > 500){
-                importeFinal = importe * 0.75F;
-            } else {
-                importeFinal = importe;
+            if (litros > 500){
+                importe *= 0.75F;
+            } else if (litros > 300){
+                importe *= 0.85F;
+            } else if (litros > 100){
+                importe *= 0.9F;
             }
 
-            Console.WriteLine("El importe final es: " + importeFinal);
+            Console.WriteLine("El importe final es: " + importe);
         }
     }
 }

@@ -19,33 +19,35 @@ namespace ejercicio3
             (ingresa 1 para extender y 0 para no extender) y calcule y emita por pantalla el monto de la máquina seleccionada.
             */
 
-            int opcP, opcMR, opcD, monto;
+            int procesador, memoria, disco, monto;
 
             Console.WriteLine("Ingrese la opcion del procesador elegido: ");
-            opcP = int.Parse(Console.ReadLine());
+            procesador = int.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese la opcion de la memoria ram elegida: ");
-            opcMR = int.Parse(Console.ReadLine());
-            Console.WriteLine("Queres extender el tamaño del disco? 1-Si 2-No");
-            opcD = int.Parse(Console.ReadLine());
+            memoria = int.Parse(Console.ReadLine());
+            Console.WriteLine("Queres extender el tamaño del disco?");
+            disco = int.Parse(Console.ReadLine());
 
             monto = 0;
 
-            switch(opcP){
+            switch(procesador){
+                // I5
                 case 1:
-                switch(opcMR){
-                    case 1:
-                        monto = 800;
-                        break;
-                    case 2:
-                        monto = 900;
-                        break;
-                    case 3:
-                        monto = 1000;
-                        break;
-                }
-                break;
+                    switch(memoria){
+                        case 1:
+                            monto = 800;
+                            break;
+                        case 2:
+                            monto = 900;
+                            break;
+                        case 3:
+                            monto = 1000;
+                            break;
+                    }
+                    break;
+                // I7    
                 case 2:
-                    switch(opcMR){
+                    switch(memoria){
                     case 1:
                         monto = 900;
                         break;
@@ -56,9 +58,10 @@ namespace ejercicio3
                         monto = 1400;
                         break;
                 }
-                break;
+                    break;
+                // I9
                 case 3:
-                    switch(opcMR){
+                    switch(memoria){
                     case 1:
                         monto = 1200;
                         break;
@@ -69,10 +72,10 @@ namespace ejercicio3
                         monto = 2000;
                         break;
                 }
-                break;
+                    break;
             }
 
-            if (opcD == 1){
+            if (disco == 1){
                 monto += 300;
             }
             

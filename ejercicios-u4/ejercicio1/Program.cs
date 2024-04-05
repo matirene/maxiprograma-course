@@ -25,9 +25,13 @@ namespace ejercicio1
 
             if (n1 > n2){
                 resultado = n1 - n2;
-            } else if (n1 == n2) {
+            }
+            
+            if (n1 == n2){
                 resultado = n1 + n2;
-            } else if (n1 < n2){
+            }
+
+            if (n1 < n2){
                 resultado = n1 * n2;
             }
 
