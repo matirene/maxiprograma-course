@@ -8,7 +8,7 @@ namespace ejercicio5
         {
             /* 5. Hacer un programa que solicite 20 números y luego emitir por pantalla el máximo de los números pares y el mínimo de los números impares. */
 
-            int numero, maxP = 0, maxI = 0;
+            int numero, maxP = 0, minI = 0;
 
             bool banderaP = false, banderaI = false;
 
@@ -19,6 +19,7 @@ namespace ejercicio5
 
                 if (numero % 2 == 0)
                 {
+                    // PARES.
                     if (!banderaP)
                     {
                         maxP = numero;
@@ -30,21 +31,22 @@ namespace ejercicio5
                         }
                     }
                 } else {
+                    // IMPARES.
                     if (!banderaI)
                     {
-                        maxI = numero;
+                        minI = numero;
                         banderaI = true;   
                     } else {
-                        if (numero > maxI)
+                        if (numero < minI)
                         {
-                            maxI = numero;
+                            minI = numero;
                         }
                     }
                 }
             }
 
             Console.WriteLine("El mayor de los numeros pares es " + maxP);
-            Console.WriteLine("El mayor de los numeros impares es " + maxI);
+            Console.WriteLine("El minimo de los numeros impares es " + minI);
         }
     }
 }
