@@ -16,7 +16,7 @@ namespace ejercicio2
                 Console.WriteLine("Ingrese un numero: ");
                 numero = int.Parse(Console.ReadLine());
 
-                if (par(numero) == 1)
+                if (par(numero))
                     count++;
                 
             }
@@ -26,11 +26,11 @@ namespace ejercicio2
 
         }
 
-        static int par(int numero){
+        static bool par(int numero){
             if (numero % 2 == 0)
-                return 1;
+                return true;
             else
-                return 0;
+                return false;
         }
     }
 }

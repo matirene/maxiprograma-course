@@ -18,12 +18,12 @@ namespace ejercicio3
 
             while (numero != 0)
             {
-                if(primo(numero) == 1){
+                if(primo(numero)){
                     acu += numero;
                     count++;
                 }
 
-                Console.WriteLine("Ingrese un numero: ");
+                Console.WriteLine("Ingrese otro numero: ");
                 numero = int.Parse(Console.ReadLine());
             }
 
@@ -34,7 +34,7 @@ namespace ejercicio3
 
         }
 
-        static int primo(int numero){
+        static bool primo(int numero){
 
             int count = 0;
 
@@ -45,9 +45,9 @@ namespace ejercicio3
             }
 
             if (count == 2)
-                return 1;
+                return true;
             else 
-                return 0;
+                return false;
         }
     }
 }

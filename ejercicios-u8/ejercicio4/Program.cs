@@ -13,14 +13,14 @@ namespace ejercicio4
             b. -1 si el número es negativo.
             c. 0 si el número es cero. */
 
-            int numero, resultado = 0;
+            int numero, estado = 0;
 
             Console.WriteLine("Ingrese un numero: ");
             numero = int.Parse(Console.ReadLine());
 
-            positivoNegativoCero(numero, ref resultado);
+            positivoNegativoCero(numero, ref estado);
 
-            switch (resultado)
+            switch (estado)
             {
                 case 1:
                     Console.WriteLine("El numero es positivo");
@@ -39,11 +39,9 @@ namespace ejercicio4
 
             if(numero > 0)
                 resultado = 1;
-
-            if(numero < 0)
+            else if(numero < 0)
                 resultado = -1;
-
-            if(numero == 0)
+            else
                 resultado = 0;
         }
     }
